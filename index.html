@@ -1,0 +1,263 @@
+<!ductype html>
+<html>
+   <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <style>
+         *{padding: 0;
+         margin: 0;}
+       /*navbar starts here*/
+        
+          ul { background-color:transparent;
+              padding-left: 70px;
+              position: fixed;
+              z-index: 1;
+             }
+            ul li { display: inline-block;
+         padding:18px 7px;
+           
+         }
+         ul li a{color:antiquewhite;
+         text-decoration: none;
+             font-size: 25px;
+             font-weight: 30px;
+             background-color:darkseagreen;
+             padding: 12px 20px;
+          
+         }
+         ul li:hover a{background-color:burlywood;
+         color:black;
+         border-bottom: 5px solid #333;
+         }
+          /*navbar ends here*/
+         
+         .header{
+             background-image: url(2.jpg);
+             width: 100%;
+             height: 700px;
+             background-position: center;
+             background-size: cover;
+           position: relative;
+         }
+         .cont{
+             position: absolute;
+             top:50%;
+            left:50%;
+             transform: translate(-50%,-50%);
+             text-align: center;
+         }
+         .cont h1{
+             font-size: 45px;
+             color:darkgreen;
+             padding-bottom: 20px;
+             
+         }
+         .cont p{
+             font-size: 25px;
+             margin-bottom: 28px;
+         }
+         .btn{
+             text-decoration: none;
+             background:linear-gradient(rgba(0,0,0,0.9),rgba(0,255,0,0.5),rgba(0,0,0,0.8));
+             padding: 15px 18px;
+             border: solid 2px black;
+             
+         }
+         /*header end here*/
+         .social{
+             position: fixed;
+             top:50%;
+             left: -18px;    }
+             
+         .social i{display: block;
+             padding: 15px 7px;
+             background-color: darkseagreen;
+             color: darkgreen;
+         }
+         .social i:hover {
+             background-color: burlywood;
+         }
+         .social:hover {
+             
+             left: 3px;
+         }
+         .help{
+             background-color: darkseagreen;
+             width: 14%;
+             height: 40px;
+             position: fixed;
+             top: 90%;
+             right: -170px;
+             padding-left: 30px;
+             padding-top: 10px;
+             z-index: 1;
+         }
+         .help:hover{
+             right: 0;
+         }
+         .about h1{
+             text-align: center;
+             padding-bottom: 20px;
+             padding-top: 20px;
+             color: darkgreen;
+             font-size: 55px;
+         }
+         .about p{ 
+         text-align: center;
+         padding-left: 10%;
+             padding-right: 10%;
+             font-size: 20px;
+             margin: 20px 0;
+             color: saddlebrown;
+         }
+         .div1,.div2{
+             float: left;
+             width: 35%;
+             height: 300px;
+             background-color: aquamarine;
+             margin:2% 7%;
+             opacity: 80%;
+         }
+         .div1{background-image: url(maarten-deckers-YDNvydD1jAY-unsplash.jpg);
+         background-size: cover;
+             background-position: center;
+            
+         }
+         .div2 p{
+             padding-top: 30px;
+             color: chocolate;
+             
+         }
+         /*project*/
+         .project h1{
+             text-align: center;
+             color: darkgreen;
+             font-size: 60px;
+            margin: 40px ;
+         }
+        .div3,.div4,.div5,.div6{
+             float:left;
+             width: 20%;
+             height: 400px;
+            
+             margin:20px 2%;
+             
+         }
+         .div3{
+             background-image: url(1.jpg);
+             background-position: center;
+             background-size: cover;
+            
+         }
+         .div4{
+             background-image: url(5.jpg);
+             background-position: center;
+             background-size: cover;
+           
+         }
+         .div5{
+             background-image: url(6.jpg);
+             background-position: center;
+             background-size: cover;
+             
+         }
+         .div6{
+             background-image: url(4.jpg);
+             background-position: center;
+             background-size: cover;
+             
+         } 
+        
+        
+           .project p{display: none;
+              }
+         
+       
+         
+		 .div3:hover p{
+			 display:block;
+		 } 
+		 .div4:hover p{
+			 display:block;
+		 }
+		 .div5:hover p{
+			 display:block;
+		 }
+		 .div6:hover p{
+			 display:block;
+		 }
+       </style>  
+    
+    
+    </head>
+    
+    <body>
+        <!--navbar starts here -->
+     <div class=" navbar">
+        <ul>
+         <li><a href="">home</a></li>
+        <li><a href="#1">about</a></li>
+            <li><a hef="#pro">projects</a></li>
+            <li><a href="">contect</a></li>
+            
+         </ul>
+       
+        </div>
+       <!--navbar ends here -->
+    <div class=" header">
+        <div class="cont">
+        <h1> flower arrangement </h1>
+        <p>  welcome to our page 
+        we can help you create your wonderful floral designs</p>
+        <a href="" class="btn">read more</a>
+        </div>
+        </div>
+    <div class="social">
+        <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-telegram"></i>
+         <i class="fa fa-instagram"></i>
+        </div> 
+      <div class="help">
+          <i class="fa fa-info-circle" aria-hidden="true"></i>
+       <i>how can i help you</i> </div>
+        
+        <div class="about" id="1">
+            <h1> about us </h1>
+            <p> Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır</p>
+            <div class="div1"></div>
+              <div class="div2">
+            <p>Yinelenen bir sayfa içeriğinin okuyucunun dikkatini dağıttığı bilinen bir gerçektir. Lorem Ipsum kullanmanın amacı, sürekli 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla </p></div>
+        </div>
+        <div class="project" id="pro">
+            <h1> our projects </h1>
+        <div class="div3">
+            
+            <p > Yaygın inancın tersine, Lorem Ipsum rastgele sözcüklerden oluşmaz.</p>
+            </div>
+             <div class="div4">
+             
+            <p > Yaygın inancın tersine, Lorem Ipsum rastgele sözcüklerden oluşmaz.</p>
+           
+            </div>
+             <div class="div5">
+                
+            <p > Yaygın inancın tersine, Lorem Ipsum rastgele sözcüklerden oluşmaz.</p>
+           
+            </div>
+             <div class="div6">
+                 
+            <p > Yaygın inancın tersine, Lorem Ipsum rastgele sözcüklerden oluşmaz.</p>
+          
+          
+            </div>
+        
+        </div>
+    </body>
+
+
+
+
+
+
+</html>
